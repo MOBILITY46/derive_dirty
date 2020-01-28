@@ -1,9 +1,9 @@
 use derive_dirty::Dirty;
 
-#[derive(Dirty)]
+#[derive(Dirty, Debug)]
 pub struct Model {
     id: String,
-    value: u16,
+    pub value: u16,
 }
 
 fn main() {
