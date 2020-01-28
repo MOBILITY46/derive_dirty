@@ -8,8 +8,8 @@ Install [cargo-expand](https://github.com/dtolnay/cargo-expand) and run `cargo e
 
 #[derive(Dirty)]
 struct Model {
- id: Uuid,
- value: u16,
+    id: Uuid,
+    value: u16,
 }
 
 let dirty = DirtyModel { value: 42 };
